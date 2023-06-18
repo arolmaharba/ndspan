@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
-""" gridspans.py
+""" combispans.py
 Created on Sun Jun 18 19:46:22 2023
 
 @author: arolm
+
+Generación de spans a partir de combinaciones.
 """
 
 def combispan(*combis):
   """
-Genera un span a partir de listas de elementos a combinar.
+  Genera un span a partir de listas de elementos a combinar.
   combispan(combi1, combi2, ..., combiN)
   combispan("lsf", combi1, combi2, ..., combiN)
   combispan("msf", combi1, combi2, ..., combiN)
